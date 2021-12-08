@@ -1,0 +1,28 @@
+.rates {
+  padding: 50px 0px 0 0;
+  background: $pink-color;
+  > h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: $brown-color;
+    text-align: center;
+    font-family: $secondary-font;
+  }
+}
+
+.rates2 {
+  background-color: $pink-color;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: $brown-color;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    font-family: $primary-font;
+  }
+}

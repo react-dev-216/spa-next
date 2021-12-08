@@ -1,0 +1,61 @@
+$primary-font-name: 'FuturaPT';
+$secondary-font-name: 'PlayFair';
+
+@font-face {
+  font-family: $primary-font-name;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/fonts/FuturaPT/FuturaPT-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $primary-font-name;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/FuturaPT/FuturaPT-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $primary-font-name;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/FuturaPT/FuturaPT-Demi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $primary-font-name;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/FuturaPT/FuturaPT-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $primary-font-name;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../public/fonts/FuturaPT/FuturaPT-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $secondary-font-name;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Medium.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: $secondary-font-name;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: $secondary-font-name;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Bold.ttf')
+    format('truetype');
+}

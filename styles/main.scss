@@ -1,0 +1,44 @@
+@import './_variable.scss';
+@import './_fonts.scss';
+
+.slick-prev {
+  background: $white !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 99 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  left: -15px !important;
+  &::before {
+    color: $brown-color !important;
+    content: '<' !important;
+    font-size: 30px !important;
+    position: fixed !important;
+    top: 5px !important;
+    left: 14px !important;
+  }
+  &:hover {
+    background: $white;
+  }
+}
+
+.slick-next {
+  right: 0px !important;
+  background: $white !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 99 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  &::before {
+    color: $brown-color !important;
+    content: '>' !important;
+    font-size: 30px !important;
+    position: fixed !important;
+    top: 5px !important;
+    left: 20px !important;
+  }
+  &:hover {
+    background: $white;
+  }
+}
